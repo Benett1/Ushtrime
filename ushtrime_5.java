@@ -24,7 +24,8 @@ public class ushtrime_5 {
             System.out.println("Nuk e permban fjalen ata");
         }
         //te gjejme se a perfundon fjalia me Java
-        if (fjalia.endsWith("Java")){
+        //if (fjalia.endsWith("Java")) ose
+        if (fjalia.substring(fjalia.length()-4).equals("Java")){
             System.out.println("Perfundon me Java");
         }
         else{
